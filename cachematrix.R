@@ -1,10 +1,12 @@
 ## Below are two functions that are used to create a special object
 ## that stores a MATRIX and caches its INVERSE. 
+## It assumes that the matrix supplied is always invertible.
+
 ## The functions are implemented after the prototype functions
-## of cachedVector.R
+## of cachedVector.R also included in the repository.
 
 
-## The function makeCacheMAtrix creates a special "matrix", 
+## The function makeCacheMAtrix creates a special "matrix" object
 ## which is a list containing a function to
 ## a) set the value of the matrix,
 ## b) get the value of the matrix,
